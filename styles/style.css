@@ -1,3 +1,124 @@
 body {
-    
+    font: arial, sans-serif;
+}
+
+.google-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+}
+
+.search-box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    border-radius: 22px;
+    width: 35rem;
+    height: 2.2rem;
+    font-size: 1rem;
+    border: 1px solid #dbdbdb;
+    text-indent: 40px;
+    padding-bottom: 5px;
+}
+
+input.search-box[type="input"]:hover {
+    box-shadow: 0px 0px 4px #00000028;
+}
+
+.circle {
+    background-color: transparent;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-top: -32px;
+    margin-left: 36%;
+    border: 2px solid #b1b1b1;
+}
+
+.handle {
+    background-color: #b1b1b1;
+    width: 8px;
+    height: 2px;
+    margin-top: .0.2%;
+    margin-left: 36.5%;
+    transform: rotate(45deg);
+}
+
+.buttons-container {
+    display: block;
+    width: 14.5%;
+    margin: auto;
+    margin-top: 3%;
+}
+
+.lucky {
+    float: right;
+}
+
+#search-buttons {
+    padding: 8px 12px 8px 12px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: #616161;
+}
+
+#search-buttons:hover {
+    border: 1px solid #c5c5c5;
+    color: rgb(26, 26, 26);
+}
+
+.about-store-container {
+    margin: auto;
+    margin-left: 10px;
+}
+
+#about-store-buttons {
+    margin-top: 10px;
+    font-size: 13px;
+    border: none;
+    color: rgb(65, 65, 65);
+}
+
+#about-store-buttons:hover {
+    text-decoration: underline;
+}
+
+.bottom-row-buttons {
+    position: absolute;
+    margin: auto;
+    width: 99%;
+    bottom: 35px;
+}
+
+.right-buttons {
+    position: absolute;
+    right: 0px;
+}
+
+.left-buttons {
+    position: absolute;
+    left: 0px;
+}
+
+#bottom-buttons {
+    font-size: 15px;
+    border: none;
+    color: rgb(87, 87, 87);
+}
+
+#bottom-buttons:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    width: 100%;
+    margin: 0px;
+    height: 2px;
+    border-top: 1px solid rgb(224, 224, 224);
 }
